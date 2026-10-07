@@ -1,0 +1,128 @@
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f1f7f6;
+  padding: 20px;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 430px;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(16, 41, 45, 0.12);
+}
+
+.login-icon {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #d9f4ef;
+  border-radius: 18px;
+  font-size: 35px;
+}
+
+.login-card h1 {
+  text-align: center;
+  margin: 0;
+  color: #10292d;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.login-subtitle {
+  text-align: center;
+  color: #6b8386;
+  margin: 10px 0 30px;
+  font-size: 14px;
+}
+
+.login-group {
+  margin-bottom: 18px;
+}
+
+.login-group label {
+  display: block;
+  margin-bottom: 7px;
+  color: #10292d;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.login-group input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 13px 14px;
+  border: 1px solid #d8e5e3;
+  border-radius: 10px;
+  outline: none;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.login-group input:focus {
+  border-color: #0f766e;
+  box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.1);
+}
+
+.login-btn {
+  width: 100%;
+  padding: 14px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 10px;
+  background: #0f766e;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.login-btn:hover {
+  background: #0b4f4a;
+  transform: translateY(-1px);
+}
+
+.login-message {
+  margin-top: 18px;
+  padding: 12px;
+  border-radius: 9px;
+  background: #f1f7f6;
+  color: #10292d;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.login-switch {
+  margin-top: 22px;
+  text-align: center;
+  color: #6b8386;
+  font-size: 14px;
+}
+
+.login-switch button {
+  margin-left: 5px;
+  border: none;
+  background: none;
+  color: #0f766e;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.login-switch button:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+  .login-card {
+    padding: 28px 22px;
+  }
+}
